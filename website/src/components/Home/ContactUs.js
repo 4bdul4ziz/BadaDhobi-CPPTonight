@@ -70,7 +70,7 @@ const ContactUs = () => {
 							<i className="now-ui-icons tech_mobile" />+6969696969
 						</h4>
 						<h4 className="text-danger">
-							<i className="now-ui-icons ui-1_email-85" /> BadaDhobi.support@gmail.com
+							<i className="now-ui-icons ui-1_email-85" /> t-laundry.support@gmail.com
 						</h4>
 						<div className={classes.root}>
 							<span ClassName="text-danger">Follow us on </span>

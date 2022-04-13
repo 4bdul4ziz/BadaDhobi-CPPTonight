@@ -36,7 +36,7 @@ const Header = (props) => {
 					<Link to="/">
 						<NavbarBrand onClick={(e) => e.preventDefault()}>
 							<div className="row align-items-center">
-								<img src={Logo} alt="Bada Dhobi" /> <span className="lead mx-1">Bada Dhobi</span>
+								<img src={Logo} alt="T-Laundry" /> <span className="lead mx-1">T-Laundry</span>
 							</div>
 						</NavbarBrand>
 					</Link>

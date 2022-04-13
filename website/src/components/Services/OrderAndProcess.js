@@ -114,7 +114,7 @@ const OrderAndProcess = () => {
 				<Col md={6} className="mobileView">
 					<h2 className="text-danger head-title mt-5 ml-5">Details of Services</h2>
 					<p className="text-justify story ml-5">
-						Bada Dhobi helps you to find nearest washing machine near you connected to our blockchain network and ensure that your clothes are washed safely and efficiently.
+						T-Laundry helps you to find nearest washing machine near you connected to our blockchain network and ensure that your clothes are washed safely and efficiently.
 			. Our quality services are quick and simple. Every customer’s laundry is washed with extreme care to preserve their clothes’ quality.
 						<li className="mt-3">Trusted and Certified </li>
 						<li>Best Product, Best Service.</li>

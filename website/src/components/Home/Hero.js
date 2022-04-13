@@ -46,7 +46,7 @@ const Hero = () => {
 							Best <span className="text-danger"> Shareable washing Machine </span> <br /> in your town
 						</h2>
 						<p className="text-justify my-3">
-							Bada Dhobi is a decentralized platform for sharable  washing machines.
+							T-Laundry is a decentralized platform for sharable  washing machines.
 We provides easy login transactions and hassle free wash cycles.
 It is completely decentralized, secure and has no chance of complete failure.
 We hope you have a good experience!

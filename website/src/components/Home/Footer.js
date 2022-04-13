@@ -10,8 +10,8 @@ const Footer = () => {
                 <Row className="py-3">
                     <Col md={6} className="py-3">
                         <Link to="/admin"><h3 className="text-danger"><i className="now-ui-icons users_circle-08 mr-2"></i>Admin Panel</h3></Link>
-                        <h4 className="text-danger">Bada Dhobi Smart Washine Machine</h4>
-                        <p className="text-white">Email: BadaDhobi.support@gmail.com</p>
+                        <h4 className="text-danger">T-Laundry Smart Washine Machine</h4>
+                        <p className="text-white">Email: t-laundry.support@gmail.com</p>
                         <p className="text-white">Phone: +6969696969</p>
                     </Col>
                     <Col md={3} className="py-3">
@@ -32,7 +32,7 @@ const Footer = () => {
                     </Col>
                 </Row>
                 <div className='footer-bottom d-flex justify-content-center'>
-                    <p className='text-secondary'>Copyright &copy; 2020 Developed by Cpp Tonight</p>
+                    <p className='text-secondary'>Copyright &copy; 2022 Developed by Cpp Tonight</p>
                 </div>
             </Container>
         </footer>

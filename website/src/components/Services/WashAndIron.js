@@ -96,6 +96,7 @@ const WashAndIron = (props) => {
 				<div className="row justify-content-between py-3">
 					<div className="col-md-8">
 						<h2 className="text-danger">Scan washing machine</h2>
+						<button className="btn btn-danger"> Open QR Code Scanner </button>
 					</div>
 					
 				</div>
