@@ -1,4 +1,18 @@
+// import { create } from "ipfs-http-client";
 
+// async function addFile() {
+//   // 1. Create IPFS instant
+//   const ipfs = create("http://localhost:5001");
+//   console.log(ipfs);
+
+//   // 2. Add file to ipfs
+//   const { cid } = await ipfs.add("something.txt");
+//   console.log(cid);
+
+//   // 3. Get file status from ipfs
+// }
+
+// addFile();
 
 const ipfsClient = require("ipfs-http-client");
 const express = require("express");
@@ -82,6 +96,7 @@ async function addFileAuth(file_name, file_path) {
     },
   });
 
+  // // 2. Add file to ipfs
   const { cid } = await ipfs.add({
     path: file_path,
     content: fileBuffer,
@@ -89,11 +104,15 @@ async function addFileAuth(file_name, file_path) {
   console.log("CIDDDDD");
   console.log(cid);
 
+  // // 3. Get file status from ipfs
   const fileStat = await ipfs.files.stat("/ipfs/" + cid);
   console.log("FILESTAT");
   console.log(fileStat);
 
-
+  // return {
+  //     cid: cid.path,
+  //     size: fileStat.cumulativeSize
+  // };
   return {
     cumulativeSize: fileStat.cumulativeSize,
     cid: fileStat.cid,
