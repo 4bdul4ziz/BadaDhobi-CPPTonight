@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@crustio/crust-cli": "^1.0.1",
     "@crustio/type-definitions": "^1.2.0",
     "@polkadot/api": "^7.15.1",
     "@polkadot/keyring": "^9.0.1",
